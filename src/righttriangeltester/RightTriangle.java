@@ -72,7 +72,18 @@ public class RightTriangle {
       //returns the area of the triangle
     double a = 0.5 * height * base;
     return a;
-  }
+   }
+   /**
+    * pre-condition: none
+    * post-condition: returns properties of the right triabgle in a string
+    */
+   public String toString(){
+      double area = area();
+      String display = ("Base is " + base + "cms \n" 
+              + "Height is " + height + "cns \n"
+              + "Area is " + area + "cms");
+      return display;
+   }
   
   
   
