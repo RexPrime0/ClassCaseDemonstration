@@ -30,7 +30,7 @@ public class RightTrianglelTester {
         
        int i = 4;
         while(i == 4){
-             //repeats until the player says that this needs 
+             //repeats until the user selects shutdown option
              String choice = JOptionPane.showInputDialog(
               "Triangle Program interface:\n"
             + "1 - Change Base\n"
